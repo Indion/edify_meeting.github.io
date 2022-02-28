@@ -42,7 +42,17 @@
             brandLogoURL: "https://drive.google.com/thumbnail?id=1Yx0Z0nBRexjhn1B5xH449rqOGu6TG4UJ",
             brandName: "Indion Techs Inc. : Edify",
             poweredBy: false,
-            
+            debug: true,
+            pin: {
+                allowed: true,
+                layout: "SPOTLIGHT",
+              },
+            leftScreen: {
+                actionButton: {
+                    label: "Rate Your Experience",
+                    href: "#",
+                },
+             },
       
             participantCanLeave: true, // if false, leave button won't be visible
       
@@ -70,7 +80,7 @@
       
             joinScreen: {
               visible: true, // Show the join screen ?
-              title: "Maths", // Meeting title
+              title: "INDION MEETING", // Meeting title
               meetingUrl: window.location.href, // Meeting joining url
             },
           };
